@@ -8,9 +8,9 @@ func main() {
 	m := make(map[string]string)
 	for i := 0; i < len(arr); i++ {
 
-		path1 := arr[i][0]
+		key_ := arr[i][0]
 
-		m[path1] = arr[i][1]
+		m[key_] = arr[i][1]
 
 	}
 
